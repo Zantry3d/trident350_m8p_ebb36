@@ -1,0 +1,1108 @@
+--------------------KlipperScreen Log Start--------------------
+Git Version: v0.3.3-10-g304e285
+2023-07-12 07:36:30,194 [screen.py:main()] - KlipperScreen version: v0.3.3-10-g304e285
+2023-07-12 07:36:30,465 [config.py:get_config_file_location()] - Passed config (-c): /home/biqu/KlipperScreen.conf
+2023-07-12 07:36:30,468 [config.py:__init__()] - Config path location: /home/biqu/KlipperScreen/ks_includes/defaults.conf
+2023-07-12 07:36:30,494 [config.py:__init__()] - Configuration validated succesfuly
+2023-07-12 07:36:30,495 [config.py:__init__()] - Configured printers: [
+  {
+    "Printer": {
+      "moonraker_host": "127.0.0.1",
+      "moonraker_port": "7125",
+      "moonraker_api_key": ""
+    }
+  }
+]
+2023-07-12 07:36:30,671 [config.py:create_translations()] - Selected lang: None OS lang: en_US
+2023-07-12 07:36:30,672 [config.py:install_language()] - Using system lang
+2023-07-12 07:36:30,673 [config.py:install_language()] - Using lang en
+2023-07-12 07:36:30,708 [screen.py:__init__()] - Screen resolution: 800x480
+2023-07-12 07:36:30,711 [KlippyGtk.py:__init__()] - Font size: 16.6 (medium)
+2023-07-12 07:36:32,728 [screen.py:set_screenblanking_timeout()] - Changing screen blanking to: 3600
+2023-07-12 07:36:32,741 [screen.py:set_screenblanking_timeout()] - Using DPMS
+2023-07-12 07:36:32,759 [screen.py:initial_connection()] - Default printer: None
+2023-07-12 07:36:32,760 [screen.py:connect_printer()] - Connecting to printer: Printer
+2023-07-12 07:36:32,760 [screen.py:_load_panel()] - Loading panel: splash_screen
+2023-07-12 07:36:32,761 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/splash_screen.py
+2023-07-12 07:36:32,956 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 07:36:33,007 [KlippyWebsocket.py:connect()] - Attempting to connect
+2023-07-12 07:36:33,055 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 07:36:33,077 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/access/oneshot_token
+2023-07-12 07:36:33,080 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2023-07-12 07:36:33,096 [_logging.py:info()] - Websocket connected
+2023-07-12 07:36:33,096 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2023-07-12 07:36:33,169 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 07:36:33,240 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 07:36:33,244 [screen.py:init_printer()] - Klipper not connected
+2023-07-12 07:36:33,261 [screen.py:update_size()] - Size changed: 800x480
+2023-07-12 07:36:36,543 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 07:36:36,562 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 07:36:36,564 [screen.py:init_printer()] - Klipper not connected
+2023-07-12 07:36:39,543 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 07:36:39,563 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 07:36:39,564 [screen.py:init_printer()] - Klipper not connected
+2023-07-12 07:36:42,541 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 07:36:42,561 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 07:36:42,563 [screen.py:init_printer()] - Klipper not connected
+2023-07-12 07:36:45,542 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 07:36:45,561 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 07:36:45,562 [screen.py:init_printer()] - Klipper not connected
+2023-07-12 07:55:49,465 [screen.py:_go_to_submenu()] - #### Go to submenu 
+2023-07-12 07:55:49,466 [screen.py:_go_to_submenu()] - #### Menu __splashscreen
+2023-07-12 07:55:49,469 [screen.py:_load_panel()] - Loading panel: menu
+2023-07-12 07:55:49,470 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/menu.py
+2023-07-12 07:55:49,587 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen > 
+2023-07-12 07:55:49,594 [menu.py:arrangeMenuItems()] - X > power
+2023-07-12 07:55:49,597 [menu.py:evaluate_enable()] - moonraker connected True
+2023-07-12 07:55:51,754 [screen.py:_load_panel()] - Loading panel: network
+2023-07-12 07:55:51,755 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/network.py
+2023-07-12 07:55:51,838 [network.py:__init__()] - Found wireless interfaces: ['wlan0']
+2023-07-12 07:55:51,839 [network.py:__init__()] - Using NetworkManager
+2023-07-12 07:55:52,328 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen >  > network
+2023-07-12 07:55:52,399 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'Beyond'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 226, in get_network_info
+    path = self.path_by_ssid[ssid]
+NoneType: None
+2023-07-12 07:55:52,409 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'Beyond'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 226, in get_network_info
+    path = self.path_by_ssid[ssid]
+NoneType: None
+2023-07-12 07:55:55,659 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'Beyond'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 226, in get_network_info
+    path = self.path_by_ssid[ssid]
+NoneType: None
+2023-07-12 07:55:57,415 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'connected'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 326, in scan_callback
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 181, in add_network
+    if network_id != -1 or netinfo['connected']:
+NoneType: None
+2023-07-12 07:56:08,250 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'Beyond'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 226, in get_network_info
+    path = self.path_by_ssid[ssid]
+NoneType: None
+2023-07-12 07:56:19,723 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'Beyond'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 226, in get_network_info
+    path = self.path_by_ssid[ssid]
+NoneType: None
+2023-07-12 07:56:20,792 [screen.py:_menu_go_back()] - #### Menu go back
+2023-07-12 07:56:20,804 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen > 
+2023-07-12 07:56:20,812 [menu.py:arrangeMenuItems()] - X > power
+2023-07-12 07:56:20,816 [menu.py:evaluate_enable()] - moonraker connected True
+2023-07-12 07:56:22,142 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen >  > network
+2023-07-12 07:56:22,247 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'Beyond'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 226, in get_network_info
+    path = self.path_by_ssid[ssid]
+NoneType: None
+2023-07-12 07:56:26,343 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'Beyond'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 226, in get_network_info
+    path = self.path_by_ssid[ssid]
+NoneType: None
+2023-07-12 07:56:40,888 [screen.py:_menu_go_back()] - #### Menu go back
+2023-07-12 07:56:40,900 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen > 
+2023-07-12 07:56:40,908 [menu.py:arrangeMenuItems()] - X > power
+2023-07-12 07:56:40,911 [menu.py:evaluate_enable()] - moonraker connected True
+2023-07-12 07:56:42,032 [screen.py:_menu_go_back()] - #### Menu go back
+2023-07-12 07:56:42,049 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 07:56:45,501 [KlippyGtk.py:Dialog()] - Showing dialog <Gtk.Dialog object at 0xffffa77cf300 (GtkDialog at 0x20a5d0b0)>
+2023-07-12 07:56:46,514 [KlippyGtk.py:remove_dialog()] - Removing Dialog
+2023-07-12 07:56:46,515 [screen.py:_send_action()] - machine.shutdown: None
+--------------------KlipperScreen Log Start--------------------
+Git Version: v0.3.3-10-g304e285
+2023-07-12 07:57:06,990 [screen.py:main()] - KlipperScreen version: v0.3.3-10-g304e285
+2023-07-12 07:57:07,257 [config.py:get_config_file_location()] - Passed config (-c): /home/biqu/KlipperScreen.conf
+2023-07-12 07:57:07,261 [config.py:__init__()] - Config path location: /home/biqu/KlipperScreen/ks_includes/defaults.conf
+2023-07-12 07:57:07,284 [config.py:__init__()] - Configuration validated succesfuly
+2023-07-12 07:57:07,286 [config.py:__init__()] - Configured printers: [
+  {
+    "Printer": {
+      "moonraker_host": "127.0.0.1",
+      "moonraker_port": "7125",
+      "moonraker_api_key": ""
+    }
+  }
+]
+2023-07-12 07:57:07,383 [config.py:create_translations()] - Selected lang: None OS lang: en_US
+2023-07-12 07:57:07,385 [config.py:install_language()] - Using system lang
+2023-07-12 07:57:07,387 [config.py:install_language()] - Using lang en
+2023-07-12 07:57:07,433 [screen.py:__init__()] - Screen resolution: 800x480
+2023-07-12 07:57:07,436 [KlippyGtk.py:__init__()] - Font size: 16.6 (medium)
+2023-07-12 07:57:09,140 [screen.py:set_screenblanking_timeout()] - Changing screen blanking to: 3600
+2023-07-12 07:57:09,167 [screen.py:set_screenblanking_timeout()] - Using DPMS
+2023-07-12 07:57:09,204 [screen.py:initial_connection()] - Default printer: None
+2023-07-12 07:57:09,205 [screen.py:connect_printer()] - Connecting to printer: Printer
+2023-07-12 07:57:09,206 [screen.py:_load_panel()] - Loading panel: splash_screen
+2023-07-12 07:57:09,207 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/splash_screen.py
+2023-07-12 07:57:09,295 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 07:57:09,319 [KlippyWebsocket.py:connect()] - Attempting to connect
+2023-07-12 07:57:09,360 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 07:57:09,384 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/access/oneshot_token
+2023-07-12 07:57:09,387 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2023-07-12 07:57:09,405 [_logging.py:info()] - Websocket connected
+2023-07-12 07:57:09,406 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2023-07-12 07:57:09,454 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 07:57:09,499 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 07:57:09,502 [screen.py:init_printer()] - Klipper not connected
+2023-07-12 07:57:09,516 [screen.py:update_size()] - Size changed: 800x480
+2023-07-12 07:57:12,668 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 07:57:12,691 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 07:57:12,693 [screen.py:init_printer()] - Klipper not connected
+2023-07-12 07:57:15,666 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 07:57:15,688 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 07:57:15,712 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/info
+2023-07-12 07:57:15,945 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?configfile
+2023-07-12 07:57:15,948 [printer.py:reinit()] - Klipper version: v0.11.0-241-gffb5105b
+2023-07-12 07:57:15,948 [printer.py:reinit()] - # Extruders: 0
+2023-07-12 07:57:15,949 [printer.py:reinit()] - # Temperature devices: 0
+2023-07-12 07:57:15,949 [printer.py:reinit()] - # Fans: 0
+2023-07-12 07:57:15,949 [printer.py:reinit()] - # Output pins: 0
+2023-07-12 07:57:15,950 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2023-07-12 07:57:16,202 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2023-07-12 07:57:16,204 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2023-07-12 07:57:16,204 [printer.py:change_state()] - Adding callback for state: error
+2023-07-12 07:57:16,225 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/temperature_store
+2023-07-12 07:57:16,227 [printer.py:init_temp_store()] - Temp store: []
+2023-07-12 07:57:16,264 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/config
+2023-07-12 07:57:16,267 [screen.py:init_tempstore()] - Temperature store size: 1200
+2023-07-12 07:57:16,267 [files.py:initialize()] - Gcodes path: None
+2023-07-12 07:57:16,268 [KlippyWebsocket.py:get_file_list()] - Sending server.files.list
+2023-07-12 07:57:16,269 [screen.py:init_printer()] - Printer initialized
+2023-07-12 07:57:16,273 [screen.py:show_panel()] - Reinitializing panel
+2023-07-12 07:57:16,362 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 07:57:18,663 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/temperature_store
+2023-07-12 07:57:18,665 [printer.py:init_temp_store()] - Temp store: []
+2023-07-12 07:57:18,684 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/config
+2023-07-12 07:57:18,686 [screen.py:init_tempstore()] - Temperature store size: 1200
+2023-07-12 07:58:46,828 [screen.py:_go_to_submenu()] - #### Go to submenu 
+2023-07-12 07:58:46,829 [screen.py:_go_to_submenu()] - #### Menu __splashscreen
+2023-07-12 07:58:46,836 [screen.py:_load_panel()] - Loading panel: menu
+2023-07-12 07:58:46,837 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/menu.py
+2023-07-12 07:58:46,961 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen > 
+2023-07-12 07:58:46,972 [menu.py:arrangeMenuItems()] - X > power
+2023-07-12 07:58:46,977 [menu.py:evaluate_enable()] - moonraker connected True
+2023-07-12 07:58:48,237 [screen.py:_load_panel()] - Loading panel: network
+2023-07-12 07:58:48,237 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/network.py
+2023-07-12 07:58:48,273 [network.py:__init__()] - Found wireless interfaces: ['wlan0']
+2023-07-12 07:58:48,274 [network.py:__init__()] - Using NetworkManager
+2023-07-12 07:58:48,693 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen >  > network
+2023-07-12 07:58:48,827 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'Beyond'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 226, in get_network_info
+    path = self.path_by_ssid[ssid]
+NoneType: None
+2023-07-12 07:58:48,836 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'Beyond'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 226, in get_network_info
+    path = self.path_by_ssid[ssid]
+NoneType: None
+2023-07-12 07:58:50,431 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'connected'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 326, in scan_callback
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 181, in add_network
+    if network_id != -1 or netinfo['connected']:
+NoneType: None
+2023-07-12 07:58:50,462 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'connected'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 326, in scan_callback
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 181, in add_network
+    if network_id != -1 or netinfo['connected']:
+NoneType: None
+2023-07-12 07:58:58,176 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'Beyond'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 226, in get_network_info
+    path = self.path_by_ssid[ssid]
+NoneType: None
+2023-07-12 07:59:07,602 [keyboard.py:__init__()] - Keyboard en
+2023-07-12 07:59:39,857 [KlippyGtk.py:Dialog()] - Showing dialog <Gtk.Dialog object at 0xffffa801e680 (GtkDialog at 0x15334340)>
+2023-07-12 07:59:39,860 [wifi_nm.py:connect()] - Connecting to: beyond
+2023-07-12 08:00:44,928 [KlippyGtk.py:remove_dialog()] - Removing Dialog
+2023-07-12 08:00:51,652 [screen.py:_menu_go_back()] - #### Menu go back
+2023-07-12 08:00:51,665 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen > 
+2023-07-12 08:00:51,672 [menu.py:arrangeMenuItems()] - X > power
+2023-07-12 08:00:51,676 [menu.py:evaluate_enable()] - moonraker connected True
+2023-07-12 08:00:54,534 [screen.py:_load_panel()] - Loading panel: system
+2023-07-12 08:00:54,535 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/system.py
+2023-07-12 08:00:54,668 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/machine/update/status
+2023-07-12 08:00:54,678 [system.py:update_program_info()] - Invalid KlipperScreen ?
+2023-07-12 08:00:54,687 [system.py:update_program_info()] - Invalid crowsnest ?
+2023-07-12 08:00:54,696 [system.py:update_program_info()] - Invalid klipper ?
+2023-07-12 08:00:54,699 [system.py:_needs_update()] - mainsail v2.6.0 -> ?
+2023-07-12 08:00:54,702 [system.py:update_program_info()] - Invalid mainsail-config ?
+2023-07-12 08:00:54,711 [system.py:update_program_info()] - Invalid moonraker ?
+2023-07-12 08:00:54,715 [system.py:update_program_info()] - Invalid print_area_bed_mesh ?
+2023-07-12 08:00:54,724 [system.py:update_program_info()] - Invalid sonar ?
+2023-07-12 08:00:54,729 [system.py:update_program_info()] - Invalid timelapse ?
+2023-07-12 08:00:54,740 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen >  > system
+2023-07-12 08:00:54,758 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/machine/update/status?refresh=false
+2023-07-12 08:00:54,760 [system.py:update_program_info()] - Invalid KlipperScreen ?
+2023-07-12 08:00:54,764 [system.py:update_program_info()] - Invalid crowsnest ?
+2023-07-12 08:00:54,767 [system.py:update_program_info()] - Invalid klipper ?
+2023-07-12 08:00:54,769 [system.py:_needs_update()] - mainsail v2.6.0 -> ?
+2023-07-12 08:00:54,771 [system.py:update_program_info()] - Invalid mainsail-config ?
+2023-07-12 08:00:54,774 [system.py:update_program_info()] - Invalid moonraker ?
+2023-07-12 08:00:54,776 [system.py:update_program_info()] - Invalid print_area_bed_mesh ?
+2023-07-12 08:00:54,779 [system.py:update_program_info()] - Invalid sonar ?
+2023-07-12 08:00:54,783 [system.py:update_program_info()] - Invalid timelapse ?
+2023-07-12 08:01:07,307 [screen.py:_menu_go_back()] - #### Menu go back
+2023-07-12 08:01:07,322 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen > 
+2023-07-12 08:01:07,329 [menu.py:arrangeMenuItems()] - X > power
+2023-07-12 08:01:07,333 [menu.py:evaluate_enable()] - moonraker connected True
+2023-07-12 08:01:09,044 [screen.py:_menu_go_back()] - #### Menu go back
+2023-07-12 08:01:09,060 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:01:11,059 [screen.py:_go_to_submenu()] - #### Go to submenu 
+2023-07-12 08:01:11,060 [screen.py:_go_to_submenu()] - #### Menu __splashscreen
+2023-07-12 08:01:11,073 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen > 
+2023-07-12 08:01:11,081 [menu.py:arrangeMenuItems()] - X > power
+2023-07-12 08:01:11,085 [menu.py:evaluate_enable()] - moonraker connected True
+2023-07-12 08:01:20,358 [screen.py:_menu_go_back()] - #### Menu go home
+2023-07-12 08:01:20,375 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:01:24,466 [KlippyWebsocket.py:connect()] - Already connected
+2023-07-12 08:01:36,417 [screen.py:_go_to_submenu()] - #### Go to submenu 
+2023-07-12 08:01:36,418 [screen.py:_go_to_submenu()] - #### Menu __splashscreen
+2023-07-12 08:01:36,447 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen > 
+2023-07-12 08:01:36,459 [menu.py:arrangeMenuItems()] - X > power
+2023-07-12 08:01:36,464 [menu.py:evaluate_enable()] - moonraker connected True
+2023-07-12 08:01:38,958 [screen.py:_load_panel()] - Loading panel: settings
+2023-07-12 08:01:38,959 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/settings.py
+2023-07-12 08:01:39,269 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen >  > settings
+2023-07-12 08:01:47,371 [screen.py:_menu_go_back()] - #### Menu go back
+2023-07-12 08:01:47,384 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen > 
+2023-07-12 08:01:47,392 [menu.py:arrangeMenuItems()] - X > power
+2023-07-12 08:01:47,396 [menu.py:evaluate_enable()] - moonraker connected True
+2023-07-12 08:01:48,714 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen >  > network
+2023-07-12 08:01:48,920 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'Beyond'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 226, in get_network_info
+    path = self.path_by_ssid[ssid]
+NoneType: None
+2023-07-12 08:01:53,556 [screen.py:_menu_go_back()] - #### Menu go back
+2023-07-12 08:01:53,584 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen > 
+2023-07-12 08:01:53,600 [menu.py:arrangeMenuItems()] - X > power
+2023-07-12 08:01:53,608 [menu.py:evaluate_enable()] - moonraker connected True
+2023-07-12 08:01:55,816 [screen.py:_menu_go_back()] - #### Menu go back
+2023-07-12 08:01:55,835 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:01:58,044 [KlippyWebsocket.py:restart()] - Sending printer.restart
+2023-07-12 08:01:58,073 [printer.py:change_state()] - Changing state from 'error' to 'disconnected'
+2023-07-12 08:01:58,075 [printer.py:change_state()] - Adding callback for state: disconnected
+2023-07-12 08:01:58,078 [screen.py:state_disconnected()] - ### Going to disconnected
+2023-07-12 08:01:58,081 [screen.py:show_panel()] - Reinitializing panel
+2023-07-12 08:01:58,179 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:02:01,692 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 08:02:01,735 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 08:02:01,761 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/info
+2023-07-12 08:02:01,967 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?configfile
+2023-07-12 08:02:01,969 [printer.py:reinit()] - Klipper version: v0.11.0-241-gffb5105b
+2023-07-12 08:02:01,970 [printer.py:reinit()] - # Extruders: 0
+2023-07-12 08:02:01,970 [printer.py:reinit()] - # Temperature devices: 0
+2023-07-12 08:02:01,970 [printer.py:reinit()] - # Fans: 0
+2023-07-12 08:02:01,971 [printer.py:reinit()] - # Output pins: 0
+2023-07-12 08:02:01,971 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2023-07-12 08:02:02,225 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2023-07-12 08:02:02,227 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2023-07-12 08:02:02,227 [printer.py:change_state()] - Adding callback for state: error
+2023-07-12 08:02:02,244 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/temperature_store
+2023-07-12 08:02:02,246 [printer.py:init_temp_store()] - Temp store: []
+2023-07-12 08:02:02,266 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/config
+2023-07-12 08:02:02,268 [screen.py:init_tempstore()] - Temperature store size: 1200
+2023-07-12 08:02:02,269 [files.py:initialize()] - Gcodes path: None
+2023-07-12 08:02:02,269 [KlippyWebsocket.py:get_file_list()] - Sending server.files.list
+2023-07-12 08:02:02,271 [screen.py:init_printer()] - Printer initialized
+2023-07-12 08:02:02,274 [screen.py:show_panel()] - Reinitializing panel
+2023-07-12 08:02:02,341 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:02:02,875 [KlippyWebsocket.py:restart()] - Sending printer.restart
+2023-07-12 08:02:02,892 [printer.py:change_state()] - Changing state from 'error' to 'disconnected'
+2023-07-12 08:02:02,892 [printer.py:change_state()] - Adding callback for state: disconnected
+2023-07-12 08:02:02,894 [screen.py:state_disconnected()] - ### Going to disconnected
+2023-07-12 08:02:02,896 [screen.py:show_panel()] - Reinitializing panel
+2023-07-12 08:02:02,961 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:02:03,417 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'connected'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 326, in scan_callback
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 181, in add_network
+    if network_id != -1 or netinfo['connected']:
+NoneType: None
+2023-07-12 08:02:04,661 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/temperature_store
+2023-07-12 08:02:04,663 [printer.py:init_temp_store()] - Temp store: []
+2023-07-12 08:02:04,682 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/config
+2023-07-12 08:02:04,685 [screen.py:init_tempstore()] - Temperature store size: 1200
+2023-07-12 08:02:05,761 [KlippyGtk.py:Dialog()] - Showing dialog <Gtk.Dialog object at 0xffffa8045cc0 (GtkDialog at 0x15178320)>
+2023-07-12 08:02:06,676 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 08:02:06,713 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 08:02:06,751 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/info
+2023-07-12 08:02:06,794 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?configfile
+2023-07-12 08:02:06,797 [printer.py:reinit()] - Klipper version: v0.11.0-241-gffb5105b
+2023-07-12 08:02:06,798 [printer.py:reinit()] - # Extruders: 0
+2023-07-12 08:02:06,798 [printer.py:reinit()] - # Temperature devices: 0
+2023-07-12 08:02:06,799 [printer.py:reinit()] - # Fans: 0
+2023-07-12 08:02:06,799 [printer.py:reinit()] - # Output pins: 0
+2023-07-12 08:02:06,800 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2023-07-12 08:02:07,046 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2023-07-12 08:02:07,048 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2023-07-12 08:02:07,048 [printer.py:change_state()] - Adding callback for state: error
+2023-07-12 08:02:07,065 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/temperature_store
+2023-07-12 08:02:07,066 [printer.py:init_temp_store()] - Temp store: []
+2023-07-12 08:02:07,085 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/config
+2023-07-12 08:02:07,087 [screen.py:init_tempstore()] - Temperature store size: 1200
+2023-07-12 08:02:07,088 [files.py:initialize()] - Gcodes path: None
+2023-07-12 08:02:07,089 [KlippyWebsocket.py:get_file_list()] - Sending server.files.list
+2023-07-12 08:02:07,090 [screen.py:init_printer()] - Printer initialized
+2023-07-12 08:02:07,098 [KlippyGtk.py:remove_dialog()] - Removing Dialog
+2023-07-12 08:02:07,099 [screen.py:show_panel()] - Reinitializing panel
+2023-07-12 08:02:07,164 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:02:07,307 [KlippyWebsocket.py:restart_firmware()] - Sending printer.firmware_restart
+2023-07-12 08:02:07,323 [printer.py:change_state()] - Changing state from 'error' to 'disconnected'
+2023-07-12 08:02:07,324 [printer.py:change_state()] - Adding callback for state: disconnected
+2023-07-12 08:02:07,325 [screen.py:state_disconnected()] - ### Going to disconnected
+2023-07-12 08:02:07,327 [screen.py:show_panel()] - Reinitializing panel
+2023-07-12 08:02:07,391 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:02:08,639 [KlippyGtk.py:remove_dialog()] - Cannot remove dialog <Gtk.Dialog object at 0xffffa8045cc0 (GtkDialog at 0x15178320)>
+2023-07-12 08:02:08,676 [KlippyGtk.py:Dialog()] - Showing dialog <Gtk.Dialog object at 0xffffa8031c40 (GtkDialog at 0x14ff7ef0)>
+2023-07-12 08:02:09,497 [KlippyGtk.py:remove_dialog()] - Removing Dialog
+2023-07-12 08:02:09,498 [screen.py:_send_action()] - machine.reboot: None
+--------------------KlipperScreen Log Start--------------------
+Git Version: v0.3.3-10-g304e285
+2023-07-12 08:02:30,525 [screen.py:main()] - KlipperScreen version: v0.3.3-10-g304e285
+2023-07-12 08:02:30,814 [config.py:get_config_file_location()] - Passed config (-c): /home/biqu/KlipperScreen.conf
+2023-07-12 08:02:30,815 [config.py:__init__()] - Config path location: /home/biqu/KlipperScreen/ks_includes/defaults.conf
+2023-07-12 08:02:30,839 [config.py:__init__()] - Configuration validated succesfuly
+2023-07-12 08:02:30,840 [config.py:__init__()] - Configured printers: [
+  {
+    "Printer": {
+      "moonraker_host": "127.0.0.1",
+      "moonraker_port": "7125",
+      "moonraker_api_key": ""
+    }
+  }
+]
+2023-07-12 08:02:30,941 [config.py:create_translations()] - Selected lang: None OS lang: en_US
+2023-07-12 08:02:30,942 [config.py:install_language()] - Using system lang
+2023-07-12 08:02:30,943 [config.py:install_language()] - Using lang en
+2023-07-12 08:02:30,986 [screen.py:__init__()] - Screen resolution: 800x480
+2023-07-12 08:02:30,989 [KlippyGtk.py:__init__()] - Font size: 16.6 (medium)
+2023-07-12 08:02:32,572 [screen.py:set_screenblanking_timeout()] - Changing screen blanking to: 3600
+2023-07-12 08:02:32,590 [screen.py:set_screenblanking_timeout()] - Using DPMS
+2023-07-12 08:02:32,609 [screen.py:initial_connection()] - Default printer: None
+2023-07-12 08:02:32,609 [screen.py:connect_printer()] - Connecting to printer: Printer
+2023-07-12 08:02:32,610 [screen.py:_load_panel()] - Loading panel: splash_screen
+2023-07-12 08:02:32,611 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/splash_screen.py
+2023-07-12 08:02:32,686 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:02:32,700 [KlippyWebsocket.py:connect()] - Attempting to connect
+2023-07-12 08:02:32,738 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 08:02:32,759 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/access/oneshot_token
+2023-07-12 08:02:32,761 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2023-07-12 08:02:32,775 [_logging.py:info()] - Websocket connected
+2023-07-12 08:02:32,776 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2023-07-12 08:02:32,816 [screen.py:update_size()] - Size changed: 800x480
+2023-07-12 08:02:33,071 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 08:02:33,120 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 08:02:33,122 [screen.py:init_printer()] - Klipper not connected
+2023-07-12 08:02:36,499 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 08:02:36,519 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 08:02:36,521 [screen.py:init_printer()] - Klipper not connected
+2023-07-12 08:02:39,516 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 08:02:39,552 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 08:02:39,587 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/info
+2023-07-12 08:02:39,738 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?configfile
+2023-07-12 08:02:39,741 [printer.py:reinit()] - Klipper version: v0.11.0-241-gffb5105b
+2023-07-12 08:02:39,741 [printer.py:reinit()] - # Extruders: 0
+2023-07-12 08:02:39,742 [printer.py:reinit()] - # Temperature devices: 0
+2023-07-12 08:02:39,742 [printer.py:reinit()] - # Fans: 0
+2023-07-12 08:02:39,742 [printer.py:reinit()] - # Output pins: 0
+2023-07-12 08:02:39,743 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2023-07-12 08:02:39,994 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2023-07-12 08:02:39,997 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2023-07-12 08:02:39,997 [printer.py:change_state()] - Adding callback for state: error
+2023-07-12 08:02:40,019 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/temperature_store
+2023-07-12 08:02:40,021 [printer.py:init_temp_store()] - Temp store: []
+2023-07-12 08:02:40,047 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/config
+2023-07-12 08:02:40,050 [screen.py:init_tempstore()] - Temperature store size: 1200
+2023-07-12 08:02:40,051 [files.py:initialize()] - Gcodes path: None
+2023-07-12 08:02:40,051 [KlippyWebsocket.py:get_file_list()] - Sending server.files.list
+2023-07-12 08:02:40,053 [screen.py:init_printer()] - Printer initialized
+2023-07-12 08:02:40,057 [screen.py:show_panel()] - Reinitializing panel
+2023-07-12 08:02:40,136 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:02:42,498 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/temperature_store
+2023-07-12 08:02:42,500 [printer.py:init_temp_store()] - Temp store: []
+2023-07-12 08:02:42,520 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/config
+2023-07-12 08:02:42,522 [screen.py:init_tempstore()] - Temperature store size: 1200
+2023-07-12 08:02:43,063 [screen.py:_go_to_submenu()] - #### Go to submenu 
+2023-07-12 08:02:43,064 [screen.py:_go_to_submenu()] - #### Menu __splashscreen
+2023-07-12 08:02:43,067 [screen.py:_load_panel()] - Loading panel: menu
+2023-07-12 08:02:43,067 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/menu.py
+2023-07-12 08:02:43,153 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen > 
+2023-07-12 08:02:43,160 [menu.py:arrangeMenuItems()] - X > power
+2023-07-12 08:02:43,164 [menu.py:evaluate_enable()] - moonraker connected True
+2023-07-12 08:02:44,548 [screen.py:_load_panel()] - Loading panel: network
+2023-07-12 08:02:44,549 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/network.py
+2023-07-12 08:02:44,596 [network.py:__init__()] - Found wireless interfaces: ['wlan0']
+2023-07-12 08:02:44,597 [network.py:__init__()] - Using NetworkManager
+2023-07-12 08:02:45,062 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen >  > network
+2023-07-12 08:02:45,306 [functions.py:logging_exception_handler()] - Uncaught exception <class 'TypeError'>: 'NoneType' object is not subscriptable
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 233, in get_network_info
+    "channel": WifiChannels.lookup(str(ap.Frequency))[1],
+NoneType: None
+2023-07-12 08:02:45,327 [functions.py:logging_exception_handler()] - Uncaught exception <class 'TypeError'>: 'NoneType' object is not subscriptable
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 233, in get_network_info
+    "channel": WifiChannels.lookup(str(ap.Frequency))[1],
+NoneType: None
+2023-07-12 08:03:00,509 [keyboard.py:__init__()] - Keyboard en
+2023-07-12 08:03:31,871 [KlippyGtk.py:Dialog()] - Showing dialog <Gtk.Dialog object at 0xffff89267580 (GtkDialog at 0x2353c300)>
+2023-07-12 08:03:31,877 [wifi_nm.py:connect()] - Connecting to: BeIOted
+2023-07-12 08:04:09,638 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'connected'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 326, in scan_callback
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 181, in add_network
+    if network_id != -1 or netinfo['connected']:
+NoneType: None
+--------------------KlipperScreen Log Start--------------------
+Git Version: v0.3.3-10-g304e285
+2023-07-12 08:02:28,037 [screen.py:main()] - KlipperScreen version: v0.3.3-10-g304e285
+2023-07-12 08:02:28,258 [config.py:get_config_file_location()] - Passed config (-c): /home/biqu/KlipperScreen.conf
+2023-07-12 08:02:28,261 [config.py:__init__()] - Config path location: /home/biqu/KlipperScreen/ks_includes/defaults.conf
+2023-07-12 08:02:28,284 [config.py:__init__()] - Configuration validated succesfuly
+2023-07-12 08:02:28,285 [config.py:__init__()] - Configured printers: [
+  {
+    "Printer": {
+      "moonraker_host": "127.0.0.1",
+      "moonraker_port": "7125",
+      "moonraker_api_key": ""
+    }
+  }
+]
+2023-07-12 08:02:28,382 [config.py:create_translations()] - Selected lang: None OS lang: en_US
+2023-07-12 08:02:28,382 [config.py:install_language()] - Using system lang
+2023-07-12 08:02:28,383 [config.py:install_language()] - Using lang en
+2023-07-12 08:02:28,416 [screen.py:__init__()] - Screen resolution: 800x480
+2023-07-12 08:02:28,418 [KlippyGtk.py:__init__()] - Font size: 16.6 (medium)
+2023-07-12 08:02:29,432 [screen.py:set_screenblanking_timeout()] - Changing screen blanking to: 3600
+2023-07-12 08:02:29,445 [screen.py:set_screenblanking_timeout()] - Using DPMS
+2023-07-12 08:02:29,462 [screen.py:initial_connection()] - Default printer: None
+2023-07-12 08:02:29,463 [screen.py:connect_printer()] - Connecting to printer: Printer
+2023-07-12 08:02:29,463 [screen.py:_load_panel()] - Loading panel: splash_screen
+2023-07-12 08:02:29,464 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/splash_screen.py
+2023-07-12 08:02:29,534 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:02:29,547 [KlippyWebsocket.py:connect()] - Attempting to connect
+2023-07-12 08:02:29,577 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 08:02:29,597 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/access/oneshot_token
+2023-07-12 08:02:29,599 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2023-07-12 08:02:29,612 [_logging.py:info()] - Websocket connected
+2023-07-12 08:02:29,613 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2023-07-12 08:02:29,646 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 08:02:29,677 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 08:02:29,698 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/info
+2023-07-12 08:02:29,869 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?configfile
+2023-07-12 08:02:29,872 [printer.py:reinit()] - Klipper version: v0.11.0-241-gffb5105b
+2023-07-12 08:02:29,873 [printer.py:reinit()] - # Extruders: 0
+2023-07-12 08:02:29,873 [printer.py:reinit()] - # Temperature devices: 0
+2023-07-12 08:02:29,874 [printer.py:reinit()] - # Fans: 0
+2023-07-12 08:02:29,874 [printer.py:reinit()] - # Output pins: 0
+2023-07-12 08:02:29,875 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2023-07-12 08:02:30,109 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2023-07-12 08:02:30,111 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2023-07-12 08:02:30,111 [printer.py:change_state()] - Adding callback for state: error
+2023-07-12 08:02:30,135 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/temperature_store
+2023-07-12 08:02:30,137 [printer.py:init_temp_store()] - Temp store: []
+2023-07-12 08:02:30,156 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/config
+2023-07-12 08:02:30,158 [screen.py:init_tempstore()] - Temperature store size: 1200
+2023-07-12 08:02:30,159 [files.py:initialize()] - Gcodes path: None
+2023-07-12 08:02:30,159 [KlippyWebsocket.py:get_file_list()] - Sending server.files.list
+2023-07-12 08:02:30,160 [screen.py:init_printer()] - Printer initialized
+2023-07-12 08:02:30,162 [screen.py:update_size()] - Size changed: 800x480
+2023-07-12 08:02:30,316 [screen.py:show_panel()] - Reinitializing panel
+2023-07-12 08:02:30,380 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:02:32,007 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/temperature_store
+2023-07-12 08:02:32,009 [printer.py:init_temp_store()] - Temp store: []
+2023-07-12 08:02:32,041 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/config
+2023-07-12 08:02:32,044 [screen.py:init_tempstore()] - Temperature store size: 1200
+2023-07-12 08:02:55,707 [screen.py:_go_to_submenu()] - #### Go to submenu 
+2023-07-12 08:02:55,708 [screen.py:_go_to_submenu()] - #### Menu __splashscreen
+2023-07-12 08:02:55,711 [screen.py:_load_panel()] - Loading panel: menu
+2023-07-12 08:02:55,711 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/menu.py
+2023-07-12 08:02:55,807 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen > 
+2023-07-12 08:02:55,814 [menu.py:arrangeMenuItems()] - X > power
+2023-07-12 08:02:55,818 [menu.py:evaluate_enable()] - moonraker connected True
+2023-07-12 08:02:57,549 [screen.py:_load_panel()] - Loading panel: network
+2023-07-12 08:02:57,550 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/network.py
+2023-07-12 08:02:57,593 [network.py:__init__()] - Found wireless interfaces: ['wlan0']
+2023-07-12 08:02:57,593 [network.py:__init__()] - Using NetworkManager
+2023-07-12 08:02:58,060 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen >  > network
+2023-07-12 08:02:58,317 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'Beyond'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 226, in get_network_info
+    path = self.path_by_ssid[ssid]
+NoneType: None
+2023-07-12 08:02:58,335 [functions.py:logging_exception_handler()] - Uncaught exception <class 'KeyError'>: 'Beyond'
+  File "/home/biqu/KlipperScreen/panels/network.py", line 115, in load_networks
+    self.add_network(net, False)
+
+  File "/home/biqu/KlipperScreen/panels/network.py", line 135, in add_network
+    netinfo = self.wifi.get_network_info(ssid)
+
+  File "/home/biqu/KlipperScreen/ks_includes/wifi_nm.py", line 226, in get_network_info
+    path = self.path_by_ssid[ssid]
+NoneType: None
+--------------------KlipperScreen Log Start--------------------
+Git Version: v0.3.3-10-g304e285
+2023-07-12 08:02:28,143 [screen.py:main()] - KlipperScreen version: v0.3.3-10-g304e285
+2023-07-12 08:02:28,390 [config.py:get_config_file_location()] - Passed config (-c): /home/biqu/KlipperScreen.conf
+2023-07-12 08:02:28,395 [config.py:__init__()] - Config path location: /home/biqu/KlipperScreen/ks_includes/defaults.conf
+2023-07-12 08:02:28,431 [config.py:__init__()] - Configuration validated succesfuly
+2023-07-12 08:02:28,433 [config.py:__init__()] - Configured printers: [
+  {
+    "Printer": {
+      "moonraker_host": "127.0.0.1",
+      "moonraker_port": "7125",
+      "moonraker_api_key": ""
+    }
+  }
+]
+2023-07-12 08:02:28,552 [config.py:create_translations()] - Selected lang: None OS lang: en_US
+2023-07-12 08:02:28,553 [config.py:install_language()] - Using system lang
+2023-07-12 08:02:28,553 [config.py:install_language()] - Using lang en
+2023-07-12 08:02:28,588 [screen.py:__init__()] - Screen resolution: 800x480
+2023-07-12 08:02:28,591 [KlippyGtk.py:__init__()] - Font size: 16.6 (medium)
+2023-07-12 08:02:29,747 [screen.py:set_screenblanking_timeout()] - Changing screen blanking to: 3600
+2023-07-12 08:02:29,762 [screen.py:set_screenblanking_timeout()] - Using DPMS
+2023-07-12 08:02:29,783 [screen.py:initial_connection()] - Default printer: None
+2023-07-12 08:02:29,783 [screen.py:connect_printer()] - Connecting to printer: Printer
+2023-07-12 08:02:29,784 [screen.py:_load_panel()] - Loading panel: splash_screen
+2023-07-12 08:02:29,785 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/splash_screen.py
+2023-07-12 08:02:29,865 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:02:29,883 [KlippyWebsocket.py:connect()] - Attempting to connect
+2023-07-12 08:02:29,930 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 08:02:29,949 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/access/oneshot_token
+2023-07-12 08:02:29,951 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2023-07-12 08:02:29,965 [_logging.py:info()] - Websocket connected
+2023-07-12 08:02:29,966 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2023-07-12 08:02:30,000 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-07-12 08:02:30,031 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-07-12 08:02:30,054 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/info
+2023-07-12 08:02:30,257 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?configfile
+2023-07-12 08:02:30,259 [printer.py:reinit()] - Klipper version: v0.11.0-241-gffb5105b
+2023-07-12 08:02:30,259 [printer.py:reinit()] - # Extruders: 0
+2023-07-12 08:02:30,260 [printer.py:reinit()] - # Temperature devices: 0
+2023-07-12 08:02:30,260 [printer.py:reinit()] - # Fans: 0
+2023-07-12 08:02:30,260 [printer.py:reinit()] - # Output pins: 0
+2023-07-12 08:02:30,260 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2023-07-12 08:02:30,523 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2023-07-12 08:02:30,526 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2023-07-12 08:02:30,527 [printer.py:change_state()] - Adding callback for state: error
+2023-07-12 08:02:30,556 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/temperature_store
+2023-07-12 08:02:30,558 [printer.py:init_temp_store()] - Temp store: []
+2023-07-12 08:02:30,597 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/config
+2023-07-12 08:02:30,601 [screen.py:init_tempstore()] - Temperature store size: 1200
+2023-07-12 08:02:30,603 [files.py:initialize()] - Gcodes path: None
+2023-07-12 08:02:30,603 [KlippyWebsocket.py:get_file_list()] - Sending server.files.list
+2023-07-12 08:02:30,605 [screen.py:init_printer()] - Printer initialized
+2023-07-12 08:02:30,607 [screen.py:update_size()] - Size changed: 800x480
+2023-07-12 08:02:30,796 [screen.py:show_panel()] - Reinitializing panel
+2023-07-12 08:02:30,903 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-07-12 08:02:33,022 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/temperature_store
+2023-07-12 08:02:33,025 [printer.py:init_temp_store()] - Temp store: []
+2023-07-12 08:02:33,054 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/config
+2023-07-12 08:02:33,057 [screen.py:init_tempstore()] - Temperature store size: 1200
+--------------------KlipperScreen Log Start--------------------
+Git Version: v0.3.3-10-g304e285
+2023-10-29 10:46:47,176 [screen.py:main()] - KlipperScreen version: v0.3.3-10-g304e285
+2023-10-29 10:46:47,541 [config.py:get_config_file_location()] - Passed config (-c): /home/biqu/KlipperScreen.conf
+2023-10-29 10:46:47,542 [config.py:__init__()] - Config path location: /home/biqu/KlipperScreen/ks_includes/defaults.conf
+2023-10-29 10:46:47,566 [config.py:__init__()] - Configuration validated succesfuly
+2023-10-29 10:46:47,567 [config.py:__init__()] - Configured printers: [
+  {
+    "Printer": {
+      "moonraker_host": "127.0.0.1",
+      "moonraker_port": "7125",
+      "moonraker_api_key": ""
+    }
+  }
+]
+2023-10-29 10:46:47,671 [config.py:create_translations()] - Selected lang: None OS lang: en_US
+2023-10-29 10:46:47,671 [config.py:install_language()] - Using system lang
+2023-10-29 10:46:47,672 [config.py:install_language()] - Using lang en
+2023-10-29 10:46:47,707 [screen.py:__init__()] - Screen resolution: 800x480
+2023-10-29 10:46:47,711 [KlippyGtk.py:__init__()] - Font size: 16.6 (medium)
+2023-10-29 10:46:49,290 [screen.py:set_screenblanking_timeout()] - Changing screen blanking to: 3600
+2023-10-29 10:46:49,308 [screen.py:set_screenblanking_timeout()] - Using DPMS
+2023-10-29 10:46:49,333 [screen.py:initial_connection()] - Default printer: None
+2023-10-29 10:46:49,334 [screen.py:connect_printer()] - Connecting to printer: Printer
+2023-10-29 10:46:49,335 [screen.py:_load_panel()] - Loading panel: splash_screen
+2023-10-29 10:46:49,336 [screen.py:_load_panel()] - Panel path: /home/biqu/KlipperScreen/panels/splash_screen.py
+2023-10-29 10:46:49,442 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-10-29 10:46:49,464 [KlippyWebsocket.py:connect()] - Attempting to connect
+2023-10-29 10:46:49,504 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:46:49,546 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/access/oneshot_token
+2023-10-29 10:46:49,549 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2023-10-29 10:46:49,569 [_logging.py:info()] - Websocket connected
+2023-10-29 10:46:49,570 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2023-10-29 10:46:49,622 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:46:49,668 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-10-29 10:46:49,671 [screen.py:init_printer()] - Klipper not connected
+2023-10-29 10:46:49,685 [screen.py:update_size()] - Size changed: 800x480
+2023-10-29 10:46:52,506 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:46:52,527 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-10-29 10:46:52,531 [screen.py:init_printer()] - Klipper not connected
+2023-10-29 10:46:55,499 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:46:55,520 [KlippyRest.py:send_request()] - 404 Client Error>>Not Found for url>>http://127.0.0.1:7125/machine/device_power/devices
+2023-10-29 10:46:55,541 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/info
+2023-10-29 10:46:55,677 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?configfile
+2023-10-29 10:46:55,679 [printer.py:reinit()] - Klipper version: v0.11.0-241-gffb5105b
+2023-10-29 10:46:55,680 [printer.py:reinit()] - # Extruders: 0
+2023-10-29 10:46:55,680 [printer.py:reinit()] - # Temperature devices: 0
+2023-10-29 10:46:55,680 [printer.py:reinit()] - # Fans: 0
+2023-10-29 10:46:55,680 [printer.py:reinit()] - # Output pins: 0
+2023-10-29 10:46:55,681 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2023-10-29 10:46:55,934 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2023-10-29 10:46:55,936 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2023-10-29 10:46:55,936 [printer.py:change_state()] - Adding callback for state: error
+2023-10-29 10:46:55,965 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/temperature_store
+2023-10-29 10:46:55,967 [printer.py:init_temp_store()] - Temp store: []
+2023-10-29 10:46:56,000 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/config
+2023-10-29 10:46:56,002 [screen.py:init_tempstore()] - Temperature store size: 1200
+2023-10-29 10:46:56,003 [files.py:initialize()] - Gcodes path: None
+2023-10-29 10:46:56,004 [KlippyWebsocket.py:get_file_list()] - Sending server.files.list
+2023-10-29 10:46:56,005 [screen.py:init_printer()] - Printer initialized
+2023-10-29 10:46:56,008 [screen.py:show_panel()] - Reinitializing panel
+2023-10-29 10:46:56,081 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-10-29 10:46:58,517 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/temperature_store
+2023-10-29 10:46:58,520 [printer.py:init_temp_store()] - Temp store: []
+2023-10-29 10:46:58,558 [KlippyRest.py:send_request()] - Sending request to http://127.0.0.1:7125/server/config
+2023-10-29 10:46:58,561 [screen.py:init_tempstore()] - Temperature store size: 1200
+2023-10-29 10:47:05,287 [KlippyGtk.py:Dialog()] - Showing dialog <Gtk.Dialog object at 0xffffb816cd40 (GtkDialog at 0x1663a5e0)>
+--------------------KlipperScreen Log Start--------------------
+Git Version: v0.3.6-65-g4a14962
+2023-10-29 10:50:28,139 [screen.py:main()] - Python version: 3.9
+2023-10-29 10:50:28,152 [screen.py:main()] - KlipperScreen version: v0.3.6-65-g4a14962
+2023-10-29 10:50:28,162 [functions.py:detect_desktop_environment()] - Error:
+'XDG_CURRENT_DESKTOP'
+
+Traceback (most recent call last):
+  File "/home/biqu/KlipperScreen/ks_includes/functions.py", line 191, in detect_desktop_environment
+    env = os.environ['XDG_CURRENT_DESKTOP']
+  File "/usr/lib/python3.9/os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'XDG_CURRENT_DESKTOP'
+Traceback (most recent call last):
+  File "/home/biqu/KlipperScreen/ks_includes/functions.py", line 191, in detect_desktop_environment
+    env = os.environ['XDG_CURRENT_DESKTOP']
+  File "/usr/lib/python3.9/os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'XDG_CURRENT_DESKTOP'
+2023-10-29 10:50:28,316 [config.py:get_config_file_location()] - Passed config (-c): /home/biqu/KlipperScreen.conf
+2023-10-29 10:50:28,319 [config.py:__init__()] - Config path location: /home/biqu/KlipperScreen/ks_includes/defaults.conf
+2023-10-29 10:50:28,336 [config.py:__init__()] - Configured printers: [
+  {
+    "Printer": {
+      "moonraker_host": "127.0.0.1",
+      "moonraker_port": "7125",
+      "moonraker_api_key": ""
+    }
+  }
+]
+2023-10-29 10:50:28,442 [config.py:create_translations()] - Selected lang: None OS lang: en_US
+2023-10-29 10:50:28,443 [config.py:install_language()] - Using system lang
+2023-10-29 10:50:28,444 [config.py:install_language()] - Using lang en
+2023-10-29 10:50:28,475 [screen.py:__init__()] - Screen resolution: 800x480
+2023-10-29 10:50:28,479 [KlippyGtk.py:__init__()] - Font size: 16.6 (medium)
+2023-10-29 10:50:29,046 [screen.py:set_screenblanking_timeout()] - Changing screen blanking to: 3600
+2023-10-29 10:50:29,062 [screen.py:set_screenblanking_timeout()] - Using DPMS
+2023-10-29 10:50:29,073 [screen.py:initial_connection()] - Default printer: None
+2023-10-29 10:50:29,074 [screen.py:connect_printer()] - Connecting to printer: Printer
+2023-10-29 10:50:29,074 [screen.py:_load_panel()] - Loading panel: splash_screen
+2023-10-29 10:50:29,169 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-10-29 10:50:29,188 [KlippyWebsocket.py:connect()] - Attempting to connect
+2023-10-29 10:50:29,218 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:50:29,240 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/access/oneshot_token
+2023-10-29 10:50:29,243 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2023-10-29 10:50:29,259 [_logging.py:info()] - Websocket connected
+2023-10-29 10:50:29,260 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2023-10-29 10:50:29,595 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:50:29,619 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:50:29,621 [screen.py:init_printer()] - Moonraker info {'klippy_connected': False, 'klippy_state': 'disconnected', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'history', 'update_manager', 'authorization'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': [], 'websocket_count': 2, 'moonraker_version': 'v0.8.0-92-g504a3a7', 'missing_klippy_requirements': [], 'api_version': [1, 2, 1], 'api_version_string': '1.2.1'}
+2023-10-29 10:50:29,643 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 10:50:29,645 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 10:50:29,646 [screen.py:init_printer()] - Klipper not connected
+2023-10-29 10:50:32,662 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:50:32,685 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:50:32,687 [screen.py:init_printer()] - Moonraker info {'klippy_connected': False, 'klippy_state': 'disconnected', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'history', 'update_manager', 'authorization'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': [], 'websocket_count': 2, 'moonraker_version': 'v0.8.0-92-g504a3a7', 'missing_klippy_requirements': [], 'api_version': [1, 2, 1], 'api_version_string': '1.2.1'}
+2023-10-29 10:50:32,709 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 10:50:32,711 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 10:50:32,712 [screen.py:init_printer()] - Klipper not connected
+2023-10-29 10:50:35,660 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:50:35,681 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:50:35,684 [screen.py:init_printer()] - Moonraker info {'klippy_connected': False, 'klippy_state': 'disconnected', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'history', 'update_manager', 'authorization'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': [], 'websocket_count': 2, 'moonraker_version': 'v0.8.0-92-g504a3a7', 'missing_klippy_requirements': [], 'api_version': [1, 2, 1], 'api_version_string': '1.2.1'}
+2023-10-29 10:50:35,706 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 10:50:35,709 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 10:50:35,709 [screen.py:init_printer()] - Klipper not connected
+2023-10-29 10:50:38,662 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:50:38,684 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:50:38,686 [screen.py:init_printer()] - Moonraker info {'klippy_connected': False, 'klippy_state': 'disconnected', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'history', 'update_manager', 'authorization'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': [], 'websocket_count': 2, 'moonraker_version': 'v0.8.0-92-g504a3a7', 'missing_klippy_requirements': [], 'api_version': [1, 2, 1], 'api_version_string': '1.2.1'}
+2023-10-29 10:50:38,707 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 10:50:38,709 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 10:50:38,710 [screen.py:init_printer()] - Klipper not connected
+2023-10-29 10:50:41,661 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:50:41,682 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:50:41,685 [screen.py:init_printer()] - Moonraker info {'klippy_connected': False, 'klippy_state': 'disconnected', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'history', 'update_manager', 'authorization'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': [], 'websocket_count': 2, 'moonraker_version': 'v0.8.0-92-g504a3a7', 'missing_klippy_requirements': [], 'api_version': [1, 2, 1], 'api_version_string': '1.2.1'}
+2023-10-29 10:50:41,706 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 10:50:41,708 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 10:50:41,709 [screen.py:init_printer()] - Klipper not connected
+2023-10-29 10:50:45,363 [KlippyGtk.py:Dialog()] - Showing dialog Updating (width=804, height=480)
+2023-10-29 10:56:34,570 [KlippyWebsocket.py:on_close()] - Server Shutdown
+2023-10-29 10:56:34,576 [KlippyWebsocket.py:on_close()] - Moonraker Websocket Closed
+2023-10-29 10:56:34,713 [base_panel.py:process_update()] - Update complete
+2023-10-29 10:56:34,718 [screen.py:show_panel()] - Reinitializing panel
+2023-10-29 10:56:34,810 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-10-29 10:56:34,832 [screen.py:connect_printer()] - Connecting to printer: Printer
+2023-10-29 10:56:34,834 [screen.py:show_panel()] - Reinitializing panel
+2023-10-29 10:56:34,912 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-10-29 10:56:34,934 [KlippyWebsocket.py:connect()] - Attempting to connect
+2023-10-29 10:56:34,957 [KlippyRest.py:_do_request()] - host=127.0.0.1, port=7125>>Max retries exceeded with url>>Failed to establish a new connection>>[Errno 111] Connection refused
+2023-10-29 10:56:45,641 [KlippyWebsocket.py:connect()] - Attempting to connect
+2023-10-29 10:56:45,672 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:56:45,696 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/access/oneshot_token
+2023-10-29 10:56:45,699 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2023-10-29 10:56:45,712 [_logging.py:info()] - Websocket connected
+2023-10-29 10:56:45,712 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2023-10-29 10:56:45,731 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:56:45,749 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 10:56:45,751 [screen.py:init_printer()] - Moonraker info {'klippy_connected': True, 'klippy_state': 'error', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'update_manager', 'authorization', 'history', 'octoprint_compat'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': [], 'websocket_count': 1, 'moonraker_version': 'v0.8.0-188-ga71c5c1', 'missing_klippy_requirements': [], 'api_version': [1, 3, 0], 'api_version_string': '1.3.0'}
+2023-10-29 10:56:45,768 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 10:56:45,770 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 10:56:45,789 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/info
+2023-10-29 10:56:45,913 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?configfile
+2023-10-29 10:56:45,915 [screen.py:init_printer()] - {'configfile': {'config': {}, 'settings': {}, 'warnings': [], 'save_config_pending': False, 'save_config_pending_items': {}}}
+2023-10-29 10:56:45,916 [printer.py:reinit()] - Klipper version: v0.11.0-304-gf7567a0d
+2023-10-29 10:56:45,917 [printer.py:reinit()] - # Extruders: 0
+2023-10-29 10:56:45,917 [printer.py:reinit()] - # Temperature devices: 0
+2023-10-29 10:56:45,917 [printer.py:reinit()] - # Fans: 0
+2023-10-29 10:56:45,917 [printer.py:reinit()] - # Output pins: 0
+2023-10-29 10:56:45,917 [printer.py:reinit()] - # Leds: 0
+2023-10-29 10:56:45,938 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/gcode/help
+2023-10-29 10:56:45,940 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2023-10-29 10:56:46,169 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2023-10-29 10:56:46,171 [files.py:initialize()] - Gcodes path: None
+2023-10-29 10:56:46,172 [KlippyWebsocket.py:get_file_list()] - Sending server.files.list
+2023-10-29 10:56:46,173 [screen.py:init_printer()] - Printer initialized
+2023-10-29 10:56:46,174 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2023-10-29 10:56:46,174 [printer.py:change_state()] - Adding callback for state: error
+2023-10-29 10:56:46,178 [screen.py:show_panel()] - Reinitializing panel
+2023-10-29 10:56:46,248 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-10-29 11:00:03,765 [printer.py:change_state()] - Changing state from 'error' to 'disconnected'
+2023-10-29 11:00:03,766 [printer.py:change_state()] - Adding callback for state: disconnected
+2023-10-29 11:00:03,768 [screen.py:state_disconnected()] - ### Going to disconnected
+2023-10-29 11:00:03,773 [screen.py:show_panel()] - Reinitializing panel
+2023-10-29 11:00:03,921 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-10-29 11:00:07,669 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:00:07,698 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:00:07,701 [screen.py:init_printer()] - Moonraker info {'klippy_connected': True, 'klippy_state': 'error', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'update_manager', 'authorization', 'history', 'octoprint_compat'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': [], 'websocket_count': 2, 'moonraker_version': 'v0.8.0-188-ga71c5c1', 'missing_klippy_requirements': [], 'api_version': [1, 3, 0], 'api_version_string': '1.3.0'}
+2023-10-29 11:00:07,728 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 11:00:07,731 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 11:00:07,763 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/info
+2023-10-29 11:00:07,914 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?configfile
+2023-10-29 11:00:07,916 [screen.py:init_printer()] - {'configfile': {'config': {}, 'settings': {}, 'warnings': [], 'save_config_pending': False, 'save_config_pending_items': {}}}
+2023-10-29 11:00:07,917 [printer.py:reinit()] - Klipper version: v0.11.0-304-gf7567a0d
+2023-10-29 11:00:07,917 [printer.py:reinit()] - # Extruders: 0
+2023-10-29 11:00:07,917 [printer.py:reinit()] - # Temperature devices: 0
+2023-10-29 11:00:07,918 [printer.py:reinit()] - # Fans: 0
+2023-10-29 11:00:07,918 [printer.py:reinit()] - # Output pins: 0
+2023-10-29 11:00:07,918 [printer.py:reinit()] - # Leds: 0
+2023-10-29 11:00:07,938 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/gcode/help
+2023-10-29 11:00:07,940 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2023-10-29 11:00:08,172 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2023-10-29 11:00:08,173 [files.py:initialize()] - Gcodes path: None
+2023-10-29 11:00:08,174 [KlippyWebsocket.py:get_file_list()] - Sending server.files.list
+2023-10-29 11:00:08,175 [screen.py:init_printer()] - Printer initialized
+2023-10-29 11:00:08,176 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2023-10-29 11:00:08,176 [printer.py:change_state()] - Adding callback for state: error
+2023-10-29 11:00:08,180 [screen.py:show_panel()] - Reinitializing panel
+2023-10-29 11:00:08,250 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+--------------------KlipperScreen Log Start--------------------
+Git Version: v0.3.6-65-g4a14962
+2023-10-29 11:00:44,377 [screen.py:main()] - Python version: 3.9
+2023-10-29 11:00:44,378 [screen.py:main()] - KlipperScreen version: v0.3.6-65-g4a14962
+2023-10-29 11:00:44,388 [functions.py:detect_desktop_environment()] - Error:
+'XDG_CURRENT_DESKTOP'
+
+Traceback (most recent call last):
+  File "/home/biqu/KlipperScreen/ks_includes/functions.py", line 191, in detect_desktop_environment
+    env = os.environ['XDG_CURRENT_DESKTOP']
+  File "/usr/lib/python3.9/os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'XDG_CURRENT_DESKTOP'
+Traceback (most recent call last):
+  File "/home/biqu/KlipperScreen/ks_includes/functions.py", line 191, in detect_desktop_environment
+    env = os.environ['XDG_CURRENT_DESKTOP']
+  File "/usr/lib/python3.9/os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'XDG_CURRENT_DESKTOP'
+2023-10-29 11:00:44,633 [config.py:get_config_file_location()] - Passed config (-c): /home/biqu/KlipperScreen.conf
+2023-10-29 11:00:44,636 [config.py:__init__()] - Config path location: /home/biqu/KlipperScreen/ks_includes/defaults.conf
+2023-10-29 11:00:44,663 [config.py:__init__()] - Configured printers: [
+  {
+    "Printer": {
+      "moonraker_host": "127.0.0.1",
+      "moonraker_port": "7125",
+      "moonraker_api_key": ""
+    }
+  }
+]
+2023-10-29 11:00:44,765 [config.py:create_translations()] - Selected lang: None OS lang: en_US
+2023-10-29 11:00:44,766 [config.py:install_language()] - Using system lang
+2023-10-29 11:00:44,767 [config.py:install_language()] - Using lang en
+2023-10-29 11:00:44,802 [screen.py:__init__()] - Screen resolution: 800x480
+2023-10-29 11:00:44,805 [KlippyGtk.py:__init__()] - Font size: 16.6 (medium)
+2023-10-29 11:00:46,412 [screen.py:set_screenblanking_timeout()] - Changing screen blanking to: 3600
+2023-10-29 11:00:46,431 [screen.py:set_screenblanking_timeout()] - Using DPMS
+2023-10-29 11:00:46,444 [screen.py:initial_connection()] - Default printer: None
+2023-10-29 11:00:46,445 [screen.py:connect_printer()] - Connecting to printer: Printer
+2023-10-29 11:00:46,446 [screen.py:_load_panel()] - Loading panel: splash_screen
+2023-10-29 11:00:46,539 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-10-29 11:00:46,561 [KlippyWebsocket.py:connect()] - Attempting to connect
+2023-10-29 11:00:46,602 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:00:46,629 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/access/oneshot_token
+2023-10-29 11:00:46,632 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2023-10-29 11:00:46,655 [_logging.py:info()] - Websocket connected
+2023-10-29 11:00:46,657 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2023-10-29 11:00:46,947 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:00:46,972 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:00:46,974 [screen.py:init_printer()] - Moonraker info {'klippy_connected': False, 'klippy_state': 'disconnected', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'history', 'authorization', 'update_manager', 'octoprint_compat'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes'], 'warnings': [], 'websocket_count': 1, 'moonraker_version': 'v0.8.0-188-ga71c5c1', 'missing_klippy_requirements': [], 'api_version': [1, 3, 0], 'api_version_string': '1.3.0'}
+2023-10-29 11:00:46,994 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 11:00:46,996 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 11:00:46,996 [screen.py:init_printer()] - Klipper not connected
+2023-10-29 11:00:50,406 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:00:50,425 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:00:50,427 [screen.py:init_printer()] - Moonraker info {'klippy_connected': False, 'klippy_state': 'disconnected', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'history', 'authorization', 'update_manager', 'octoprint_compat'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes'], 'warnings': [], 'websocket_count': 1, 'moonraker_version': 'v0.8.0-188-ga71c5c1', 'missing_klippy_requirements': [], 'api_version': [1, 3, 0], 'api_version_string': '1.3.0'}
+2023-10-29 11:00:50,447 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 11:00:50,449 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 11:00:50,449 [screen.py:init_printer()] - Klipper not connected
+2023-10-29 11:00:53,405 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:00:53,422 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:00:53,424 [screen.py:init_printer()] - Moonraker info {'klippy_connected': True, 'klippy_state': 'error', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'history', 'authorization', 'update_manager', 'octoprint_compat'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': [], 'websocket_count': 1, 'moonraker_version': 'v0.8.0-188-ga71c5c1', 'missing_klippy_requirements': [], 'api_version': [1, 3, 0], 'api_version_string': '1.3.0'}
+2023-10-29 11:00:53,441 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 11:00:53,443 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 11:00:53,462 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/info
+2023-10-29 11:00:53,598 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?configfile
+2023-10-29 11:00:53,600 [screen.py:init_printer()] - {'configfile': {'config': {}, 'settings': {}, 'warnings': [], 'save_config_pending': False, 'save_config_pending_items': {}}}
+2023-10-29 11:00:53,600 [printer.py:reinit()] - Klipper version: v0.11.0-304-gf7567a0d
+2023-10-29 11:00:53,601 [printer.py:reinit()] - # Extruders: 0
+2023-10-29 11:00:53,601 [printer.py:reinit()] - # Temperature devices: 0
+2023-10-29 11:00:53,601 [printer.py:reinit()] - # Fans: 0
+2023-10-29 11:00:53,601 [printer.py:reinit()] - # Output pins: 0
+2023-10-29 11:00:53,602 [printer.py:reinit()] - # Leds: 0
+2023-10-29 11:00:53,628 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/gcode/help
+2023-10-29 11:00:53,630 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2023-10-29 11:00:53,854 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2023-10-29 11:00:53,856 [files.py:initialize()] - Gcodes path: None
+2023-10-29 11:00:53,856 [KlippyWebsocket.py:get_file_list()] - Sending server.files.list
+2023-10-29 11:00:53,858 [screen.py:init_printer()] - Printer initialized
+2023-10-29 11:00:53,858 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2023-10-29 11:00:53,859 [printer.py:change_state()] - Adding callback for state: error
+2023-10-29 11:00:53,863 [screen.py:show_panel()] - Reinitializing panel
+2023-10-29 11:00:53,932 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-10-29 11:09:50,081 [KlippyWebsocket.py:on_close()] - Server Shutdown
+2023-10-29 11:09:50,083 [KlippyWebsocket.py:on_close()] - Moonraker Websocket Closed
+2023-10-29 11:09:50,087 [screen.py:show_panel()] - Reinitializing panel
+2023-10-29 11:09:50,191 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-10-29 11:09:50,216 [screen.py:connect_printer()] - Connecting to printer: Printer
+2023-10-29 11:09:50,218 [screen.py:show_panel()] - Reinitializing panel
+2023-10-29 11:09:50,305 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-10-29 11:09:50,323 [KlippyWebsocket.py:connect()] - Attempting to connect
+2023-10-29 11:09:50,334 [KlippyRest.py:_do_request()] - host=127.0.0.1, port=7125>>Max retries exceeded with url>>Failed to establish a new connection>>[Errno 111] Connection refused
+2023-10-29 11:10:00,220 [KlippyWebsocket.py:connect()] - Attempting to connect
+2023-10-29 11:10:00,240 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:10:00,257 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/access/oneshot_token
+2023-10-29 11:10:00,259 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2023-10-29 11:10:00,272 [_logging.py:info()] - Websocket connected
+2023-10-29 11:10:00,272 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2023-10-29 11:10:00,290 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:10:00,308 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:10:00,309 [screen.py:init_printer()] - Moonraker info {'klippy_connected': True, 'klippy_state': 'error', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'history', 'authorization', 'update_manager', 'octoprint_compat'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': [], 'websocket_count': 2, 'moonraker_version': 'v0.8.0-188-ga71c5c1', 'missing_klippy_requirements': [], 'api_version': [1, 3, 0], 'api_version_string': '1.3.0'}
+2023-10-29 11:10:00,327 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 11:10:00,329 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 11:10:00,349 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/info
+2023-10-29 11:10:00,482 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?configfile
+2023-10-29 11:10:00,485 [screen.py:init_printer()] - {'configfile': {'config': {}, 'settings': {}, 'warnings': [], 'save_config_pending': False, 'save_config_pending_items': {}}}
+2023-10-29 11:10:00,486 [printer.py:reinit()] - Klipper version: v0.11.0-304-gf7567a0d
+2023-10-29 11:10:00,486 [printer.py:reinit()] - # Extruders: 0
+2023-10-29 11:10:00,487 [printer.py:reinit()] - # Temperature devices: 0
+2023-10-29 11:10:00,487 [printer.py:reinit()] - # Fans: 0
+2023-10-29 11:10:00,487 [printer.py:reinit()] - # Output pins: 0
+2023-10-29 11:10:00,488 [printer.py:reinit()] - # Leds: 0
+2023-10-29 11:10:00,521 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/gcode/help
+2023-10-29 11:10:00,524 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2023-10-29 11:10:00,745 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2023-10-29 11:10:00,749 [files.py:initialize()] - Gcodes path: None
+2023-10-29 11:10:00,749 [KlippyWebsocket.py:get_file_list()] - Sending server.files.list
+2023-10-29 11:10:00,751 [screen.py:init_printer()] - Printer initialized
+2023-10-29 11:10:00,752 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2023-10-29 11:10:00,753 [printer.py:change_state()] - Adding callback for state: error
+2023-10-29 11:10:00,758 [screen.py:show_panel()] - Reinitializing panel
+2023-10-29 11:10:00,891 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+--------------------KlipperScreen Log Start--------------------
+Git Version: v0.3.6-65-g4a14962
+2023-10-29 11:10:29,152 [screen.py:main()] - Python version: 3.9
+2023-10-29 11:10:29,153 [screen.py:main()] - KlipperScreen version: v0.3.6-65-g4a14962
+2023-10-29 11:10:29,161 [functions.py:detect_desktop_environment()] - Error:
+'XDG_CURRENT_DESKTOP'
+
+Traceback (most recent call last):
+  File "/home/biqu/KlipperScreen/ks_includes/functions.py", line 191, in detect_desktop_environment
+    env = os.environ['XDG_CURRENT_DESKTOP']
+  File "/usr/lib/python3.9/os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'XDG_CURRENT_DESKTOP'
+Traceback (most recent call last):
+  File "/home/biqu/KlipperScreen/ks_includes/functions.py", line 191, in detect_desktop_environment
+    env = os.environ['XDG_CURRENT_DESKTOP']
+  File "/usr/lib/python3.9/os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'XDG_CURRENT_DESKTOP'
+2023-10-29 11:10:29,429 [config.py:get_config_file_location()] - Passed config (-c): /home/biqu/KlipperScreen.conf
+2023-10-29 11:10:29,433 [config.py:__init__()] - Config path location: /home/biqu/KlipperScreen/ks_includes/defaults.conf
+2023-10-29 11:10:29,466 [config.py:__init__()] - Configured printers: [
+  {
+    "Printer": {
+      "moonraker_host": "127.0.0.1",
+      "moonraker_port": "7125",
+      "moonraker_api_key": ""
+    }
+  }
+]
+2023-10-29 11:10:29,567 [config.py:create_translations()] - Selected lang: None OS lang: en_US
+2023-10-29 11:10:29,568 [config.py:install_language()] - Using system lang
+2023-10-29 11:10:29,569 [config.py:install_language()] - Using lang en
+2023-10-29 11:10:29,609 [screen.py:__init__()] - Screen resolution: 800x480
+2023-10-29 11:10:29,612 [KlippyGtk.py:__init__()] - Font size: 16.6 (medium)
+2023-10-29 11:10:31,223 [screen.py:set_screenblanking_timeout()] - Changing screen blanking to: 3600
+2023-10-29 11:10:31,243 [screen.py:set_screenblanking_timeout()] - Using DPMS
+2023-10-29 11:10:31,259 [screen.py:initial_connection()] - Default printer: None
+2023-10-29 11:10:31,260 [screen.py:connect_printer()] - Connecting to printer: Printer
+2023-10-29 11:10:31,260 [screen.py:_load_panel()] - Loading panel: splash_screen
+2023-10-29 11:10:31,356 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-10-29 11:10:31,378 [KlippyWebsocket.py:connect()] - Attempting to connect
+2023-10-29 11:10:31,420 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:10:31,444 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/access/oneshot_token
+2023-10-29 11:10:31,447 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2023-10-29 11:10:31,466 [_logging.py:info()] - Websocket connected
+2023-10-29 11:10:31,467 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2023-10-29 11:10:31,810 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:10:31,832 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:10:31,834 [screen.py:init_printer()] - Moonraker info {'klippy_connected': False, 'klippy_state': 'disconnected', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'update_manager', 'history', 'authorization', 'octoprint_compat'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes'], 'warnings': [], 'websocket_count': 1, 'moonraker_version': 'v0.8.0-188-ga71c5c1', 'missing_klippy_requirements': [], 'api_version': [1, 3, 0], 'api_version_string': '1.3.0'}
+2023-10-29 11:10:31,856 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 11:10:31,858 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 11:10:31,859 [screen.py:init_printer()] - Klipper not connected
+2023-10-29 11:10:35,477 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:10:35,498 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:10:35,501 [screen.py:init_printer()] - Moonraker info {'klippy_connected': False, 'klippy_state': 'disconnected', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'update_manager', 'history', 'authorization', 'octoprint_compat'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes'], 'warnings': [], 'websocket_count': 2, 'moonraker_version': 'v0.8.0-188-ga71c5c1', 'missing_klippy_requirements': [], 'api_version': [1, 3, 0], 'api_version_string': '1.3.0'}
+2023-10-29 11:10:35,520 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 11:10:35,522 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 11:10:35,522 [screen.py:init_printer()] - Klipper not connected
+2023-10-29 11:10:38,480 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:10:38,501 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/info
+2023-10-29 11:10:38,504 [screen.py:init_printer()] - Moonraker info {'klippy_connected': True, 'klippy_state': 'error', 'components': ['klippy_connection', 'application', 'websockets', 'internal_transport', 'dbus_manager', 'database', 'file_manager', 'klippy_apis', 'secrets', 'template', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'update_manager', 'history', 'authorization', 'octoprint_compat'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': [], 'websocket_count': 2, 'moonraker_version': 'v0.8.0-188-ga71c5c1', 'missing_klippy_requirements': [], 'api_version': [1, 3, 0], 'api_version_string': '1.3.0'}
+2023-10-29 11:10:38,524 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/server/webcams/list
+2023-10-29 11:10:38,526 [printer.py:configure_cameras()] - Cameras: []
+2023-10-29 11:10:38,552 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/info
+2023-10-29 11:10:38,629 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?configfile
+2023-10-29 11:10:38,631 [screen.py:init_printer()] - {'configfile': {'config': {}, 'settings': {}, 'warnings': [], 'save_config_pending': False, 'save_config_pending_items': {}}}
+2023-10-29 11:10:38,633 [printer.py:reinit()] - Klipper version: v0.11.0-304-gf7567a0d
+2023-10-29 11:10:38,633 [printer.py:reinit()] - # Extruders: 0
+2023-10-29 11:10:38,634 [printer.py:reinit()] - # Temperature devices: 0
+2023-10-29 11:10:38,635 [printer.py:reinit()] - # Fans: 0
+2023-10-29 11:10:38,636 [printer.py:reinit()] - # Output pins: 0
+2023-10-29 11:10:38,636 [printer.py:reinit()] - # Leds: 0
+2023-10-29 11:10:38,680 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/gcode/help
+2023-10-29 11:10:38,683 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2023-10-29 11:10:38,885 [KlippyRest.py:_do_request()] - Sending request to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2023-10-29 11:10:38,887 [files.py:initialize()] - Gcodes path: None
+2023-10-29 11:10:38,888 [KlippyWebsocket.py:get_file_list()] - Sending server.files.list
+2023-10-29 11:10:38,889 [screen.py:init_printer()] - Printer initialized
+2023-10-29 11:10:38,890 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2023-10-29 11:10:38,890 [printer.py:change_state()] - Adding callback for state: error
+2023-10-29 11:10:38,900 [screen.py:show_panel()] - Reinitializing panel
+2023-10-29 11:10:38,992 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2023-10-29 11:10:42,195 [KlippyGtk.py:Dialog()] - Showing dialog Updating (width=804, height=480)
+2023-10-29 11:10:45,831 [base_panel.py:process_update()] - Update complete

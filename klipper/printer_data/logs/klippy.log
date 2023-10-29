@@ -1,0 +1,132 @@
+=============== Log rollover at Sun Oct 29 10:46:33 2023 ===============
+Starting Klippy...
+Args: ['/home/biqu/klipper/klippy/klippy.py', '/home/biqu/printer_data/config/printer.cfg', '-I', '/home/biqu/printer_data/comms/klippy.serial', '-l', '/home/biqu/printer_data/logs/klippy.log', '-a', '/home/biqu/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-241-gffb5105b'
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper
+CPU: 4 core ?
+Python: '3.9.2 (default, Feb 28 2021, 17:03:44) \n[GCC 10.2.1 20210110]'
+Start printer at Sun Oct 29 10:46:54 2023 (1698576414.1 37.6)
+Config error
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/biqu/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/biqu/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/biqu/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/biqu/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/biqu/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/biqu/printer_data/config/generic-bigtreetech-xxx.cfg' does not exist
+webhooks client 281473154764704: New connection
+webhooks client 281473154764704: Client info {'program': 'Moonraker', 'version': 'v0.8.0-92-g504a3a7'}
+Starting Klippy...
+Args: ['/home/biqu/klipper/klippy/klippy.py', '/home/biqu/printer_data/config/printer.cfg', '-I', '/home/biqu/printer_data/comms/klippy.serial', '-l', '/home/biqu/printer_data/logs/klippy.log', '-a', '/home/biqu/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-304-gf7567a0d'
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper
+CPU: 4 core ?
+Python: '3.9.2 (default, Feb 28 2021, 17:03:44) \n[GCC 10.2.1 20210110]'
+Building C code module c_helper.so
+Start printer at Sun Oct 29 10:50:44 2023 (1698576644.9 255.3)
+Config error
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/biqu/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/biqu/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/biqu/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/biqu/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/biqu/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/biqu/printer_data/config/generic-bigtreetech-xxx.cfg' does not exist
+webhooks client 281473602576496: New connection
+webhooks client 281473602576496: Client info {'program': 'Moonraker', 'version': 'v0.8.0-92-g504a3a7'}
+webhooks client 281473602576496: Disconnected
+webhooks client 281473602540304: New connection
+webhooks client 281473602540304: Client info {'program': 'Moonraker', 'version': 'v0.8.0-188-ga71c5c1'}
+webhooks client 281473602540304: Disconnected
+Restarting printer
+Start printer at Sun Oct 29 11:00:04 2023 (1698577204.8 815.2)
+Config error
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/biqu/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/biqu/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/biqu/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/biqu/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/biqu/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/biqu/printer_data/config/generic-bigtreetech-xxx.cfg' does not exist
+webhooks client 281473602716000: New connection
+webhooks client 281473602716000: Client info {'program': 'Moonraker', 'version': 'v0.8.0-188-ga71c5c1'}
+Starting Klippy...
+Args: ['/home/biqu/klipper/klippy/klippy.py', '/home/biqu/printer_data/config/printer.cfg', '-I', '/home/biqu/printer_data/comms/klippy.serial', '-l', '/home/biqu/printer_data/logs/klippy.log', '-a', '/home/biqu/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-304-gf7567a0d'
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper
+CPU: 4 core ?
+Python: '3.9.2 (default, Feb 28 2021, 17:03:44) \n[GCC 10.2.1 20210110]'
+Start printer at Sun Oct 29 11:00:50 2023 (1698577250.7 37.3)
+Config error
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/biqu/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/biqu/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/biqu/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/biqu/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/biqu/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/biqu/printer_data/config/generic-bigtreetech-xxx.cfg' does not exist
+webhooks client 281473806716496: New connection
+webhooks client 281473806716496: Client info {'program': 'Moonraker', 'version': 'v0.8.0-188-ga71c5c1'}
+webhooks client 281473806716496: Disconnected
+webhooks client 281473806716784: New connection
+webhooks client 281473806716784: Client info {'program': 'Moonraker', 'version': 'v0.8.0-188-ga71c5c1'}
+Starting Klippy...
+Args: ['/home/biqu/klipper/klippy/klippy.py', '/home/biqu/printer_data/config/printer.cfg', '-I', '/home/biqu/printer_data/comms/klippy.serial', '-l', '/home/biqu/printer_data/logs/klippy.log', '-a', '/home/biqu/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-304-gf7567a0d'
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper
+CPU: 4 core ?
+Python: '3.9.2 (default, Feb 28 2021, 17:03:44) \n[GCC 10.2.1 20210110]'
+Start printer at Sun Oct 29 11:10:35 2023 (1698577835.7 37.3)
+Config error
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/biqu/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/biqu/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/biqu/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/biqu/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/biqu/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/biqu/printer_data/config/generic-bigtreetech-xxx.cfg' does not exist
+webhooks client 281473307418288: New connection
+webhooks client 281473307418288: Client info {'program': 'Moonraker', 'version': 'v0.8.0-188-ga71c5c1'}
